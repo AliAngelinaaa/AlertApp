@@ -6,9 +6,8 @@
     android:padding="16dp"
     android:gravity="center"
     android:background="#000000">
-
     <Button
-        android:id="@+id/login_button"
+        android:id="@+id/signingin_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
@@ -17,10 +16,10 @@
         android:onClick="openLoginPopup" />
 
     <Button
-        android:id="@+id/signup_button"
+        android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/login_button"
+        android:layout_below="@id/signingin_button"
         android:layout_centerHorizontal="true"
         android:onClick="openSignPopup"
         android:text="Sign Up" />

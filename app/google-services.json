@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "61200199309",
+    "project_id": "alert-app-b11ab",
+    "storage_bucket": "alert-app-b11ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61200199309:android:d01190d6054ef15d767cc4",
+        "android_client_info": {
+          "package_name": "com.example.alertapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs13N-r7Mt-5M2J8roDqHpDlgzvF1-XS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

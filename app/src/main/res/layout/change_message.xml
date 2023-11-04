@@ -24,7 +24,7 @@
     <EditText
         android:id="@+id/message_input_edit_text"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
         android:layout_marginTop="16dp"
         android:background="#CCBCBA"
         android:hint="Type your message here"
@@ -40,10 +40,10 @@
         android:id="@+id/change_message_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="412dp"
+        android:layout_marginTop="224dp"
         android:background="#000000"
-        android:textColor="#FFFFFF"
         android:text="Manage Contacts"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/message_input_edit_text" />
 
