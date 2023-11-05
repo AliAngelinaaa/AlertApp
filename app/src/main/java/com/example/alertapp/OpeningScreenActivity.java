@@ -23,7 +23,16 @@ public class OpeningScreenActivity extends AppCompatActivity {
         View dialogView = inflater.inflate(R.layout.popup_login, null);
         builder.setView(dialogView);
 
-        // Set up your popup UI elements and logic here
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+
+    public void openSignPopup(View view) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = this.getLayoutInflater();
+        View dialogView = inflater.inflate(R.layout.popup_signup, null);
+        builder.setView(dialogView);
+
 
         AlertDialog dialog = builder.create();
         dialog.show();

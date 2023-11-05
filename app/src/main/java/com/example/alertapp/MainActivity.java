@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         changeMessageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MessageChange.class); // Replace CurrentActivity with your current activity and ChangeMessageActivity with the desired activity
+                Intent intent = new Intent(MainActivity.this, MessageChange.class);
                 startActivity(intent);
             }
         });
@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.manage_contacts_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Open the manage contacts activity.
                 startActivity(new Intent(MainActivity.this, ManageContacts.class));
             }
         });
